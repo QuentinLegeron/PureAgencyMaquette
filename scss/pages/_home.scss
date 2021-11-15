@@ -1,0 +1,45 @@
+header{
+    height: 80vh;
+    color: white;
+    background: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+        ),
+        url(../img/cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 3rem;
+}
+
+header div {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.portfolios {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: linear-gradient(45deg, #fd3fb3 0%, #fd3e4f 100%);
+    font-family: sans-serif;
+    color: white;
+
+    > div {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 1300px;
+    }
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 36px;
+}
